@@ -1,0 +1,31 @@
+name: Prompt or resource submission
+description: Propose an original prompt, guide, translation, or creative resource.
+title: "[Resource]: "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title and intended use
+    validations:
+      required: true
+  - type: textarea
+    id: resource
+    attributes:
+      label: Prompt or resource
+      description: Include reusable variables, steps, and reference requirements.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Testing and limitations
+      description: List model/version and settings if tested, or explicitly state that it is untested. Do not invent results.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Source, license, and attribution
+      description: Confirm authorship or provide the source and permission to redistribute. Include rights for any previews.
+    validations:
+      required: true

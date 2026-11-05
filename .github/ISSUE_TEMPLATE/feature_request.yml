@@ -1,0 +1,22 @@
+name: Feature or workflow proposal
+description: Suggest a useful capability, workflow, or improvement.
+title: "[Proposal]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or creative goal
+      description: Who needs this, and what are they trying to achieve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe a focused first version and what success would look like.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and limitations

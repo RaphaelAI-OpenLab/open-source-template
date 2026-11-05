@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product support
+    url: mailto:support@raphael.app
+    about: Private account and product questions.
+  - name: Security policy
+    url: https://github.com/RaphaelAI-OpenLab/.github/blob/main/SECURITY.md
+    about: Report vulnerabilities privately.

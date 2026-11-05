@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible problem in an open-source project.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "For account or billing support, email support@raphael.app. Report vulnerabilities privately; do not include secrets or personal data."
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Include the project version or commit and environment.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Give the smallest example that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant logs or screenshots
+      description: Redact secrets, private data, and reference images you cannot share.
